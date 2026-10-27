@@ -18,7 +18,7 @@ Input district-level values come from existing published analysis, not our own c
 
 ## Research integrity
 
-The site and comparative computations were prepared with substantial AI assistance. Independent source verification, original fieldwork, academic peer review, institutional partnerships and documented community impact have **not** occurred. Those must not be claimed before they happen. This release is not a peer-reviewed medical study.
+The website presents reproducible secondary calculations of previously published environmental data. The source datasets and models belong to their original authors. Independent source verification, original fieldwork, academic peer review, institutional partnerships and documented community impact have **not** occurred. Those must not be claimed before they happen. This release is not a peer-reviewed medical study.
 
 See [methodology](./METHODOLOGY.md) and [original research roadmap](./NEXT_STEPS.md).
 
