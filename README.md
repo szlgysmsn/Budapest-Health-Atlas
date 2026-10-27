@@ -1,5 +1,15 @@
 # Budapest Health Atlas
 
+## Public-health atlas
+
+- [Bilingual public health & care explorer](./health.html) — real geographical polygons for all 23 districts, health pathways, official air-quality sources and an exploratory care-location tool.
+- [Public health research protocol](./PUBLIC_HEALTH_RESEARCH_PROTOCOL.md) — questions, clinical relevance, data requirements, confounding, validation and limitations.
+- [Environmental analysis report](./research-report.html) — published heat/vegetation district comparisons.
+
+**Coverage audit:** The geographic vegetation/heat layers use published district estimates; they are not measurements of disease. Air-quality district exposure surfaces, walkable park access and independently verified care-travel-time estimates are research goals, not completed datasets. The OpenStreetMap facility lookup is experimental, incomplete and unsuitable for medical routing. No clinical outcomes or patient data are collected.
+
+**Map geometry:** Geographic boundaries derived from [integralvision/geo-data-hungary](https://github.com/integralvision/geo-data-hungary), licensed CC BY-SA 3.0, based on © OpenStreetMap contributors (ODbL).
+
 Bilingual (English/Hungarian) secondary environmental research atlas comparing vegetation cover and **modeled** urban heat exposure across Budapest's 23 districts.
 
 ## View the website
