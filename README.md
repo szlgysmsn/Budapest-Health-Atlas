@@ -21,3 +21,13 @@ Input district-level values come from existing published analysis, not our own c
 The site and comparative computations were prepared with substantial AI assistance. Independent source verification, original fieldwork, academic peer review, institutional partnerships and documented community impact have **not** occurred. Those must not be claimed before they happen. This release is not a peer-reviewed medical study.
 
 See [methodology](./METHODOLOGY.md) and [original research roadmap](./NEXT_STEPS.md).
+
+## Research and original fieldwork
+
+- [Read environmental research brief](./research-report.html)
+- [View bilingual observation log (local-only)](./fieldwork.html)
+- [Download the source-tagged dataset](./data/district_environment.csv)
+- [Download blank original fieldwork CSV](./data/fieldwork_template.csv)
+- [Reproduce group statistics in Python](./analysis/analyze.py)
+
+**Fieldwork privacy:** Entries made in the fieldwork page are stored only in the user's own browser and must be exported to CSV by the user. No observations are prefilled, transmitted to GitHub, or represented as completed. These are educational tools, not medical or epidemiological results.
