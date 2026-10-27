@@ -1,6 +1,8 @@
 name: EEA annual air-quality source check
 
 on:
+  push:
+    paths: ['.github/workflows/eea_source_check.yml']
   workflow_dispatch:
 
 permissions:
