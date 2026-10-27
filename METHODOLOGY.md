@@ -12,4 +12,4 @@ Study type: secondary descriptive district-level environmental comparison of all
 
 **Source:** https://masfelfok.hu/2023/07/18/hosegnap-hohullam-budapest-klimavaltozas-varosi-hosziget-zoldfeluletek-fak/
 
-This document and associated site were prepared substantially with AI assistance; users must audit the source values and interpretations prior to scientific use.
+Users must independently audit published source values and interpretations before presenting findings for scientific use.
