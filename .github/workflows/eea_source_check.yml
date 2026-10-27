@@ -1,0 +1,37 @@
+name: EEA annual air-quality source check
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Inspect official data download endpoints
+        run: |
+          python - <<'PY'
+          import requests
+          url_pairs=[
+            ("PM25", "https://sdi.eea.europa.eu/data/57807f24-25dc-4df3-9468-dcff8cee5468"),
+            ("NO2", "https://sdi.eea.europa.eu/data/317cf5a5-9909-46b2-bc17-0d40ff3138eb"),
+            ("PM25_catalog", "https://sdi.eea.europa.eu/webdav/datastore/public/eea_r_3035_1_km_aq-interpolated-pm25_p_2023_v01_r00"),
+            ("NO2_catalog", "https://sdi.eea.europa.eu/webdav/datastore/public/eea_r_3035_1_km_aq-interpolated-no2_p_2023_v01_r00"),
+          ]
+          for name,url in url_pairs:
+            for method in ("HEAD","GET"):
+              try:
+                if method=="HEAD":
+                  r=requests.head(url,timeout=12,allow_redirects=True)
+                  print(name,method,r.status_code,r.url,r.headers.get("content-type"),r.headers.get("content-length"),r.headers.get("content-disposition"))
+                else:
+                  r=requests.get(url,timeout=12,allow_redirects=True,headers={"Range":"bytes=0-1023"},stream=True)
+                  data=next(r.iter_content(600),b"")
+                  print(name,method,r.status_code,r.url,r.headers.get("content-type"),r.headers.get("content-length"),repr(data[:180]))
+                  r.close()
+              except Exception as e:
+                print(name,method,"ERROR",repr(e))
+          PY
