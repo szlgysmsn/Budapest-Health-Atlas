@@ -1,5 +1,15 @@
 # Budapest Health Atlas
 
+## District-level air pollution analysis (EEA mapped data)
+
+- [Interactive PM2.5 / NO₂ district atlas](./air-pollution.html) — all 23 district polygons; choose pollutant layer and compare results.
+- [Derived 23-district CSV](./data/air_pollution_by_district.csv) — mapped land-area-weighted mean, geographic coverage and grid cell counts.
+- [Detailed statistical comparisons](./AIR_POLLUTION_STATISTICS.md) — six-versus-six vegetation contrasts, correlations and health context.
+- [Reproducible area-weighting source code](./analysis/district_air_pollution.py) — official EEA Environmental Health Atlas map-cell overlays.
+- [Reproducible statistical script](./analysis/pollution_statistics.py).
+
+**Key interpretation:** The EEA Environmental Health Atlas describes the source capital-city air-quality maps as 2023. The exact map service layer vintage has not been independently cross-verified. These are **modeled/interpolated district land-area means**, not monitoring station observations for each district, population-weighted exposure, health care outcomes, or measurements of illness. The association with older (c. 2015–2017) vegetation data is descriptive and potentially confounded.
+
 ## Public-health atlas
 
 - [Bilingual public health & care explorer](./health.html) — real geographical polygons for all 23 districts, health pathways, official air-quality sources and an exploratory care-location tool.
