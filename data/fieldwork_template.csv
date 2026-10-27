@@ -1,1 +1,1 @@
-segment_id,district,street_type,segment_description_nonidentifying,observation_date,local_time,sidewalk_side,weather,shade_category,visible_street_trees,observer_notes_nonidentifying
+id,district,date,time,side,weather,shade,trees,street,notes
