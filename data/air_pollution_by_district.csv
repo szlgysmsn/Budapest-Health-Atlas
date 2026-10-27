@@ -1,0 +1,24 @@
+district_number,district,pm25_ug_m3,no2_ug_m3,pm25_area_coverage,no2_area_coverage,pm25_grid_cells,no2_grid_cells,pm25_status,no2_status
+1,Budapest I. kerület,15.935,29.037,1.0,1.0,10,10,usable,usable
+2,Budapest II. kerület,14.134,18.005,0.9469,0.9469,48,48,usable,usable
+3,Budapest III. kerület,15.549,21.832,0.9697,0.9697,51,51,usable,usable
+4,Budapest IV. kerület,15.382,21.965,0.9542,0.9542,27,27,usable,usable
+5,Budapest V. kerület,15.926,31.741,1.0,1.0,8,8,usable,usable
+6,Budapest VI. kerület,15.952,31.176,1.0,1.0,7,7,usable,usable
+7,Budapest VII. kerület,15.946,30.888,1.0,1.0,8,8,usable,usable
+8,Budapest VIII. kerület,15.862,30.033,1.0,1.0,16,16,usable,usable
+9,Budapest IX. kerület,15.82,27.345,1.0,1.0,25,25,usable,usable
+10,Budapest X. kerület,15.457,22.378,1.0,1.0,47,47,usable,usable
+11,Budapest XI. kerület,15.519,23.764,0.9926,0.9926,48,48,usable,usable
+12,Budapest XII. kerület,14.321,19.997,0.9559,0.9559,36,36,usable,usable
+13,Budapest XIII. kerület,15.978,28.6,1.0,1.0,24,24,usable,usable
+14,Budapest XIV. kerület,15.84,27.134,1.0,1.0,30,30,usable,usable
+15,Budapest XV. kerület,15.591,19.234,0.9362,0.9362,36,36,usable,usable
+16,Budapest XVI. kerület,15.018,20.359,0.9505,0.9505,45,45,usable,usable
+17,Budapest XVII. kerület,14.631,17.91,0.9721,0.9721,66,66,usable,usable
+18,Budapest XVIII. kerület,14.926,19.957,0.9852,0.9852,55,55,usable,usable
+19,Budapest XIX. kerület,15.703,25.006,1.0,1.0,18,18,usable,usable
+20,Budapest XX. kerület,15.582,24.095,1.0,1.0,25,25,usable,usable
+21,Budapest XXI. kerület,15.655,21.015,0.9533,0.9533,38,38,usable,usable
+22,Budapest XXII. kerület,15.102,19.592,0.983,0.983,44,44,usable,usable
+23,Budapest XXIII. kerület,14.754,16.122,0.9666,0.9666,54,54,usable,usable

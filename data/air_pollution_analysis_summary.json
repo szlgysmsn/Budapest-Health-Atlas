@@ -1,0 +1,32 @@
+{
+  "retrieved_utc": "2026-10-27T13:33:54.891914+00:00",
+  "source_map_service": "https://trial.discomap.eea.europa.eu/arcgis/rest/services/EnvHealthAtlas/European_Capitals_2D/MapServer",
+  "layers": {
+    "pm25": [
+      0,
+      "PM_25"
+    ],
+    "no2": [
+      5,
+      "NO_2"
+    ]
+  },
+  "reference_year": "Undetermined service-layer vintage; EEA Health Atlas describes 2023 maps. Verify before assigning year.",
+  "aggregation": "Intersection-area weighted mean, projected in equal-area EPSG:3035",
+  "units": "annual mean micrograms per cubic meter (µg/m3), mapped surface",
+  "method_limitations": [
+    "Not population-weighted or personal exposures",
+    "Does not measure health outcomes",
+    "Values are derived from interpolated European-scale surfaces",
+    "Districts with <85% geometry overlap are excluded",
+    "Data-vintage verification remains outstanding"
+  ],
+  "cells_retrieved": {
+    "pm25": 529,
+    "no2": 529
+  },
+  "districts_with_valid_estimate": {
+    "pm25": 23,
+    "no2": 23
+  }
+}
