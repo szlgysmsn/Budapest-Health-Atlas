@@ -11,4 +11,4 @@
 
 Hello, I'm a Budapest high-school student developing a bilingual atlas comparing published vegetation cover and modeled urban heat across the city's 23 districts. I would appreciate short methodological feedback and guidance for an original observational pilot of pedestrian street shade. May I send a brief research summary? Thank you.
 
-The initial site and reports were generated substantially with AI assistance; independent authorship and real-world contributions should be transparently documented.
+The initial site and reports analyze published secondary data. Independent source verification and any new original contributions must be documented accurately.
